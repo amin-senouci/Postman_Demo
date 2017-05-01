@@ -1,0 +1,71 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Collection Demo",
+		"_postman_id": "21da4b2f-3c26-f848-6485-92c181fe6ed8",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Call Rest test",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200 ;",
+							"",
+							"",
+							"",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "https://www.quality.cms-one.richemont.com/us/en/collections/jewellery/posession/pgg34p7a00---cmsbaseline-possession-ring-thin-model.productinfo.json",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Call Rest test 2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"tests[\"Status code is 200\"] = responseCode.code === 200 ;",
+							"",
+							"",
+							"",
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "https://www.quality.cms-one.richemont.com/us/en/collections/jewellery/posession/pgg34p7a00---cmsbaseline-possession-ring-thin-model.productinfo.json",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
